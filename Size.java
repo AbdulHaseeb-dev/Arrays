@@ -10,8 +10,13 @@ public class Size {
             numbers[i] = sc.nextInt();
         }
 
+        int x = sc.nextInt();
+
         for(int i=0; i<size; i++){
-            System.out.println(numbers[i]);
+            if (numbers[i] == x) {
+                System.out.println("x found at index :"+ i);
+            }
+            
         }
         sc.close();
     }
